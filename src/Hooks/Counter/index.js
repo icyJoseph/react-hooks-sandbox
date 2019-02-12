@@ -7,7 +7,7 @@ export function Counter() {
   const decreaseCount = () => updateCount(counter - 1);
 
   return (
-    <div className="counter-hook">
+    <div className="hook">
       <div className="current-count">
         <span className="display-4">Count</span>
         <span className="lead">{counter}</span>

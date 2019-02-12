@@ -27,3 +27,11 @@ code {
   display: flex;
   flex-wrap: wrap;
 }
+
+.hook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--secondary);
+  margin: 0.5em;
+}
