@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // Hooks :)
 import Counter from "../Hooks/Counter";
+import DocTitle from "../Hooks/DocTitle";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         </header>
         <div className="container with-flex-wrap">
           <Counter />
+          <DocTitle />
         </div>
       </div>
     );

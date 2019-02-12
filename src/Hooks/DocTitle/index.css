@@ -1,0 +1,8 @@
+.doc-action-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.doc-action-buttons > button {
+  margin: 0.5em;
+}
