@@ -1,0 +1,25 @@
+.counter-hook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--secondary);
+}
+
+.current-count {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-count > span:first-child {
+  font-size: 1.5em !important;
+}
+
+.action-buttons {
+  display: flex;
+  flex: 1;
+}
+
+.action-buttons > button {
+  margin: 0.5em 1em;
+  min-width: 50px;
+}
