@@ -22,3 +22,8 @@ code {
   background-color: #282c34;
   min-height: 100vh;
 }
+
+.with-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
