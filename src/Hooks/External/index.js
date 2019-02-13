@@ -5,10 +5,10 @@ export function External() {
   const [width, height] = useOptimizedResize();
   return (
     <div className="hook">
-      <div className="padded">
-        <p className="lead">
+      <div className="padded card-like">
+        <span className="lead">
           The current width: {width} px, and height: {height} px.
-        </p>
+        </span>
       </div>
     </div>
   );

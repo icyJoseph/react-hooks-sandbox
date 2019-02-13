@@ -56,3 +56,29 @@ code {
 .hook > div.padded {
   padding: 1em;
 }
+
+.hook > div.card-like {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.effect-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.effect-buttons > span {
+  flex: 1;
+}
+
+.effect-buttons > div {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+
+.effect-buttons > div > button {
+  margin: 0.25em;
+}

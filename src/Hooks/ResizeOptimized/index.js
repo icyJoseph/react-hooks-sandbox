@@ -9,7 +9,7 @@ function ResizeOptimized() {
   const [width, height] = useOptimizedResize(logs);
   return (
     <div className="hook">
-      <div className="optimized-resize">
+      <div className="optimized-resize card-like">
         <span className="lead text-warning">Optimized</span>
         <span className="text-muted">
           Width: <span className="text-success">{width}</span> px
