@@ -5,6 +5,7 @@ import Counter from "../Hooks/Counter";
 import DocTitle from "../Hooks/DocTitle";
 import Inputs from "../Hooks/Inputs";
 import SavedInputs from "../Hooks/SavedInputs";
+import Resize from "../Hooks/Resize";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <DocTitle />
           <Inputs />
           <SavedInputs />
+          <Resize />
         </div>
       </div>
     );
