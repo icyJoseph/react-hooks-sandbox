@@ -10,7 +10,8 @@ import Inputs from "../Hooks/Inputs";
 import SavedInputs from "../Hooks/SavedInputs";
 import Resize from "../Hooks/Resize";
 
-import Responsive from "../Hooks/Responsive";
+import WindowWidth from "../Hooks/WindowWidth";
+import ResizeOptimized from "../Hooks/ResizeOptimized";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Resize />
       </Section>
       <Section subtitle="Advanced">
-        <Responsive />
+        <WindowWidth />
+        <ResizeOptimized />
       </Section>
     </div>
   );
