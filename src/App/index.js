@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import Counter from "../Hooks/Counter";
 import DocTitle from "../Hooks/DocTitle";
 import Inputs from "../Hooks/Inputs";
+import SavedInputs from "../Hooks/SavedInputs";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Counter />
           <DocTitle />
           <Inputs />
+          <SavedInputs />
         </div>
       </div>
     );
