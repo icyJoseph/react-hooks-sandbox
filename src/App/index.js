@@ -3,6 +3,7 @@ import React, { Component } from "react";
 // Hooks :)
 import Counter from "../Hooks/Counter";
 import DocTitle from "../Hooks/DocTitle";
+import Inputs from "../Hooks/Inputs";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <div className="container with-flex-wrap">
           <Counter />
           <DocTitle />
+          <Inputs />
         </div>
       </div>
     );
