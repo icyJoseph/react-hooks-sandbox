@@ -1,6 +1,6 @@
 import { useState, useLayoutEffect } from "react";
 
-function useOptimizedResize(userCallbacks) {
+function useOptimizedResize(userCallbacks = []) {
   const [running, setRunning] = useState(false);
 
   const [width, setWidth] = useState(window.innerWidth);
