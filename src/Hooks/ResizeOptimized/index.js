@@ -2,11 +2,9 @@ import React from "react";
 import useOptimizedResize from "../../Use/useOptimizedResize";
 import "./index.css";
 
-const logger = a => console.log(a);
-const logs = [logger, logger];
 
 function ResizeOptimized() {
-  const [width, height] = useOptimizedResize(logs);
+  const [width, height] = useOptimizedResize();
   return (
     <div className="hook">
       <div className="optimized-resize card-like">
