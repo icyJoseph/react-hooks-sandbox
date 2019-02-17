@@ -6,9 +6,10 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.5",
-    "use-optimized-resize": "^1.0.4"
+    "use-optimized-resize": "^1.0.5"
   },
   "scripts": {
+    "deploy": "yarn build && surge --domain https://polite-bed.surge.sh --project ./build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
