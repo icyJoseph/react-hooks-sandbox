@@ -14,6 +14,7 @@ import WindowWidth from "../Hooks/WindowWidth";
 import ResizeOptimized from "../Hooks/ResizeOptimized";
 import External from "../Hooks/External";
 import ObjectIs from "../Hooks/ObjectIs";
+import Visitors from "../Hooks/Visitors";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         <ResizeOptimized />
         <External />
         <ObjectIs />
+      </Section>
+      <Section subtitle="Visitors">
+        <Visitors />
       </Section>
     </div>
   );

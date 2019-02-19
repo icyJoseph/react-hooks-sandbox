@@ -82,3 +82,25 @@ code {
 .effect-buttons > div > button {
   margin: 0.25em;
 }
+
+.visitors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.visitors > form {
+  flex: 1;
+}
+
+.visitors > div:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+.visitors > div:first-of-type > div {
+  margin: 0.5em;
+}
