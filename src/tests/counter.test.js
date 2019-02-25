@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { act } from "react-dom/test-utils";
 import Counter from "../Hooks/Counter";
 
-describe("Counter wit React test utils", () => {
+describe("Counter with React test utils", () => {
   const container = document.createElement("div");
   document.body.appendChild(container);
   act(() => {
