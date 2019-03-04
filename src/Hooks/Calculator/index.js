@@ -1,6 +1,16 @@
 import React, { useState, useRef } from "react";
 import NumberContext from "../../Context/Numbers";
-import Operations from "./Operations";
+import ContextOperations from "./ContextOperations";
+import HookOperations from "./HookOperations";
+
+export function Content() {
+  return (
+    <div className="calculator-content">
+      <ContextOperations />
+      <HookOperations />
+    </div>
+  );
+}
 
 export function Calculator({ children }) {
   const left = useRef(0);
@@ -28,7 +38,7 @@ export function Calculator({ children }) {
         <button className="btn btn-success">Submit</button>
       </form>
       <NumberContext.Provider value={numbers}>
-        <Operations />
+        <Content />
       </NumberContext.Provider>
     </div>
   );
