@@ -16,6 +16,8 @@ import External from "../Hooks/External";
 import ObjectIs from "../Hooks/ObjectIs";
 import Visitors from "../Hooks/Visitors";
 
+import Calculator from "../Hooks/Calculator";
+
 function App() {
   return (
     <div className="App">
@@ -35,6 +37,9 @@ function App() {
       </Section>
       <Section subtitle="Visitors">
         <Visitors />
+      </Section>
+      <Section subtitle="Context">
+        <Calculator />
       </Section>
     </div>
   );
